@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(120deg,rgb(94, 215, 215),rgb(103, 103, 216),rgb(223, 123, 223),rgb(217, 217, 119),rgb(214, 178, 113),pink,rgb(119, 213, 119),rgb(94, 198, 198));
+    background-size: 400% 400%;
+    animation: grad 5s ease infinite;
+}
+
+@keyframes grad {
+    0% , 100%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100%;
+    }
+}
